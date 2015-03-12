@@ -41,3 +41,7 @@ C:\Users\Zetroc\Dropbox\School\Bus4 110A\BUS 110A GROUP WORK\Working Folder\logi
 C:\Users\Zetroc\Dropbox\School\Bus4 110A\BUS 110A GROUP WORK\Working Folder\loginformagain\loginformagain\bin\Debug\loginformagain.pdb
 C:\Users\Zetroc\Dropbox\School\Bus4 110A\BUS 110A GROUP WORK\Working Folder\loginformagain\loginformagain\bin\Debug\loginformagain.xml
 C:\Users\Zetroc\Dropbox\School\Bus4 110A\BUS 110A GROUP WORK\Working Folder\loginformagain\loginformagain\obj\Debug\loginformagain.EmployeeLogin.resources
+C:\Users\Zetroc\Desktop\GitHub\loginformagain\bin\Debug\loginformagain.exe.config
+C:\Users\Zetroc\Desktop\GitHub\loginformagain\obj\Debug\loginformagain.exe
+C:\Users\Zetroc\Desktop\GitHub\loginformagain\obj\Debug\loginformagain.xml
+C:\Users\Zetroc\Desktop\GitHub\loginformagain\obj\Debug\loginformagain.pdb
