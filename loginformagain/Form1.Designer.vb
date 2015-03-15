@@ -188,9 +188,9 @@ Partial Class Form1
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(99, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(269, 40)
+        Me.Label1.Size = New System.Drawing.Size(185, 40)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "check it out"
+        Me.Label1.Text = "ELibrary"
         '
         'ELibrary_DatabaseDataSet
         '
@@ -223,7 +223,7 @@ Partial Class Form1
         Me.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1362, 742)
+        Me.ClientSize = New System.Drawing.Size(1354, 733)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Form1"
         Me.Text = "check it out"
