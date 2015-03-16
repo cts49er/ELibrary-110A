@@ -31,7 +31,7 @@ Partial Class Registration
         Me.TextBox7 = New System.Windows.Forms.TextBox()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cbState = New System.Windows.Forms.ComboBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -61,7 +61,7 @@ Partial Class Registration
         Me.Panel1.Controls.Add(Me.TextBox7)
         Me.Panel1.Controls.Add(Me.TextBox6)
         Me.Panel1.Controls.Add(Me.TextBox5)
-        Me.Panel1.Controls.Add(Me.ComboBox1)
+        Me.Panel1.Controls.Add(Me.cbState)
         Me.Panel1.Controls.Add(Me.TextBox4)
         Me.Panel1.Controls.Add(Me.TextBox3)
         Me.Panel1.Controls.Add(Me.TextBox2)
@@ -151,14 +151,14 @@ Partial Class Registration
         Me.TextBox5.Size = New System.Drawing.Size(80, 24)
         Me.TextBox5.TabIndex = 21
         '
-        'ComboBox1
+        'cbState
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"AL", "AK", "AS", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WY"})
-        Me.ComboBox1.Location = New System.Drawing.Point(453, 197)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(80, 28)
-        Me.ComboBox1.TabIndex = 20
+        Me.cbState.FormattingEnabled = True
+        Me.cbState.Items.AddRange(New Object() {"AL", "AK", "AS", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WY"})
+        Me.cbState.Location = New System.Drawing.Point(453, 197)
+        Me.cbState.Name = "cbState"
+        Me.cbState.Size = New System.Drawing.Size(80, 28)
+        Me.cbState.TabIndex = 20
         '
         'TextBox4
         '
@@ -352,7 +352,7 @@ Partial Class Registration
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cbState As System.Windows.Forms.ComboBox
     Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
