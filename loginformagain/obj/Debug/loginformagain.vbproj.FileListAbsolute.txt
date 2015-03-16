@@ -45,6 +45,7 @@ C:\Users\Zetroc\Desktop\GitHub\loginformagain\bin\Debug\loginformagain.exe.confi
 C:\Users\Zetroc\Desktop\GitHub\loginformagain\obj\Debug\loginformagain.exe
 C:\Users\Zetroc\Desktop\GitHub\loginformagain\obj\Debug\loginformagain.xml
 C:\Users\Zetroc\Desktop\GitHub\loginformagain\obj\Debug\loginformagain.pdb
+<<<<<<< HEAD
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.exe.config
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.exe
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.xml
@@ -58,3 +59,18 @@ C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginform
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Resources.resources
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Search.resources
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbproj.GenerateResource.Cache
+=======
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.exe.config
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.exe
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.xml
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.pdb
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\ELibrary Database.accdb
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.exe
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.pdb
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.xml
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbprojResolveAssemblyReference.cache
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Form1.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Resources.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Search.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbproj.GenerateResource.Cache
+>>>>>>> 6b0d7a49afc08eb1e5059b360b5e04d02468182d

@@ -129,9 +129,9 @@ Partial Class Search
         Me.Label1.ForeColor = System.Drawing.Color.LightGray
         Me.Label1.Location = New System.Drawing.Point(430, 127)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(542, 32)
+        Me.Label1.Size = New System.Drawing.Size(610, 32)
         Me.Label1.TabIndex = 24
-        Me.Label1.Text = "the premiere electronic library"
+        Me.Label1.Text = "the web's finest electronic library"
         '
         'Label7
         '

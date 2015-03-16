@@ -25,7 +25,6 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -41,11 +40,15 @@ Partial Class Form1
         Me.LibraryMembersTableAdapter = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryMembersTableAdapter()
         Me.LibraryEmployeesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.LibraryEmployeesTableAdapter = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryEmployeesTableAdapter()
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6b0d7a49afc08eb1e5059b360b5e04d02468182d
         Me.TableAdapterManager = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.TableAdapterManager()
         Me.Panel1.SuspendLayout()
         CType(Me.ELibrary_DatabaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LibraryMembersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LibraryEmployeesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -53,7 +56,6 @@ Partial Class Form1
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label4)
@@ -68,20 +70,6 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(466, 609)
         Me.Panel1.TabIndex = 0
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(143, 528)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(181, 56)
-        Me.Button1.TabIndex = 14
-        Me.Button1.Text = "Login as Employee"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label6
         '
@@ -189,11 +177,18 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Courier New", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(99, 34)
+        Me.Label1.Location = New System.Drawing.Point(88, 34)
         Me.Label1.Name = "Label1"
+<<<<<<< HEAD
         Me.Label1.Size = New System.Drawing.Size(185, 40)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ELibrary"
+=======
+        Me.Label1.Size = New System.Drawing.Size(290, 40)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "check it out!"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+>>>>>>> 6b0d7a49afc08eb1e5059b360b5e04d02468182d
         '
         'ELibrary_DatabaseDataSet
         '
@@ -213,11 +208,23 @@ Partial Class Form1
         '
         Me.LibraryMembersTableAdapter.ClearBeforeFill = True
         '
+        'LibraryEmployeesBindingSource
+        '
+        Me.LibraryEmployeesBindingSource.DataMember = "LibraryEmployees"
+        Me.LibraryEmployeesBindingSource.DataSource = Me.ELibrary_DatabaseDataSet
+        '
+        'LibraryEmployeesTableAdapter
+        '
+        Me.LibraryEmployeesTableAdapter.ClearBeforeFill = True
+        '
         'TableAdapterManager
         '
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.CheckOutTableAdapter = Nothing
+<<<<<<< HEAD
         'Me.TableAdapterManager.LibraryEmployeesTableAdapter = Nothing
+=======
+>>>>>>> 6b0d7a49afc08eb1e5059b360b5e04d02468182d
         Me.TableAdapterManager.LibraryEmployeesTableAdapter = Me.LibraryEmployeesTableAdapter
         Me.TableAdapterManager.LibraryMembersTableAdapter = Me.LibraryMembersTableAdapter
         Me.TableAdapterManager.LibraryResourcesTableAdapter = Nothing
@@ -239,6 +246,7 @@ Partial Class Form1
         Me.Panel1.PerformLayout()
         CType(Me.ELibrary_DatabaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LibraryMembersBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LibraryEmployeesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -257,7 +265,6 @@ Partial Class Form1
     Friend WithEvents LibraryEmployeesTableAdapter As loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryEmployeesTableAdapter
     Friend WithEvents LibraryMembersTableAdapter As loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryMembersTableAdapter
     Friend WithEvents TableAdapterManager As loginformagain.ELibrary_DatabaseDataSetTableAdapters.TableAdapterManager
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
 

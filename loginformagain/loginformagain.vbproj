@@ -78,12 +78,6 @@
     <Compile Include="ELibrary_DatabaseDataSet.vb">
       <DependentUpon>ELibrary_DatabaseDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeLogin.Designer.vb">
-      <DependentUpon>EmployeeLogin.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EmployeeLogin.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +100,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Registration.Designer.vb">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Search.Designer.vb">
       <DependentUpon>Search.vb</DependentUpon>
     </Compile>
@@ -114,9 +114,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="EmployeeLogin.resx">
-      <DependentUpon>EmployeeLogin.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +122,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Search.resx">
       <DependentUpon>Search.vb</DependentUpon>
