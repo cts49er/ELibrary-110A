@@ -41,11 +41,11 @@ Partial Class Form1
         Me.LibraryMembersTableAdapter = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryMembersTableAdapter()
         Me.LibraryEmployeesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.LibraryEmployeesTableAdapter = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryEmployeesTableAdapter()
-
         Me.TableAdapterManager = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.TableAdapterManager()
         Me.Panel1.SuspendLayout()
         CType(Me.ELibrary_DatabaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LibraryMembersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LibraryEmployeesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -189,11 +189,12 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Courier New", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(99, 34)
+        Me.Label1.Location = New System.Drawing.Point(141, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(185, 40)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ELibrary"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ELibrary_DatabaseDataSet
         '
@@ -204,20 +205,24 @@ Partial Class Form1
         '
         Me.LibraryMembersBindingSource.DataMember = "LibraryMembers"
         Me.LibraryMembersBindingSource.DataSource = Me.ELibrary_DatabaseDataSet
-        'LibraryEmployeesBindingSource
-        '
-        Me.LibraryEmployeesBindingSource.DataMember = "LibraryEmployees"
-        Me.LibraryEmployeesBindingSource.DataSource = Me.ELibrary_DatabaseDataSet
         '
         'LibraryMembersTableAdapter
         '
         Me.LibraryMembersTableAdapter.ClearBeforeFill = True
         '
+        'LibraryEmployeesBindingSource
+        '
+        Me.LibraryEmployeesBindingSource.DataMember = "LibraryEmployees"
+        Me.LibraryEmployeesBindingSource.DataSource = Me.ELibrary_DatabaseDataSet
+        '
+        'LibraryEmployeesTableAdapter
+        '
+        Me.LibraryEmployeesTableAdapter.ClearBeforeFill = True
+        '
         'TableAdapterManager
         '
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.CheckOutTableAdapter = Nothing
-        'Me.TableAdapterManager.LibraryEmployeesTableAdapter = Nothing
         Me.TableAdapterManager.LibraryEmployeesTableAdapter = Me.LibraryEmployeesTableAdapter
         Me.TableAdapterManager.LibraryMembersTableAdapter = Me.LibraryMembersTableAdapter
         Me.TableAdapterManager.LibraryResourcesTableAdapter = Nothing
@@ -239,6 +244,7 @@ Partial Class Form1
         Me.Panel1.PerformLayout()
         CType(Me.ELibrary_DatabaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LibraryMembersBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LibraryEmployeesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
