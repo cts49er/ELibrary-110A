@@ -49,3 +49,13 @@ C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformaga
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.exe
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.xml
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.pdb
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\ELibrary Database.accdb
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.exe
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.pdb
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.xml
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbprojResolveAssemblyReference.cache
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.EmployeeLogin.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Form1.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Resources.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Search.resources
+C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbproj.GenerateResource.Cache
