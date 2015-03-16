@@ -173,11 +173,11 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Courier New", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(141, 34)
+        Me.Label1.Location = New System.Drawing.Point(88, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(185, 40)
+        Me.Label1.Size = New System.Drawing.Size(290, 40)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ELibrary"
+        Me.Label1.Text = "check it out!"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ELibrary_DatabaseDataSet
