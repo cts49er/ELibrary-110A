@@ -39,6 +39,9 @@ Partial Class Form1
         Me.ELibrary_DatabaseDataSet = New loginformagain.ELibrary_DatabaseDataSet()
         Me.LibraryMembersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.LibraryMembersTableAdapter = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryMembersTableAdapter()
+        Me.LibraryEmployeesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.LibraryEmployeesTableAdapter = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryEmployeesTableAdapter()
+
         Me.TableAdapterManager = New loginformagain.ELibrary_DatabaseDataSetTableAdapters.TableAdapterManager()
         Me.Panel1.SuspendLayout()
         CType(Me.ELibrary_DatabaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -201,6 +204,10 @@ Partial Class Form1
         '
         Me.LibraryMembersBindingSource.DataMember = "LibraryMembers"
         Me.LibraryMembersBindingSource.DataSource = Me.ELibrary_DatabaseDataSet
+        'LibraryEmployeesBindingSource
+        '
+        Me.LibraryEmployeesBindingSource.DataMember = "LibraryEmployees"
+        Me.LibraryEmployeesBindingSource.DataSource = Me.ELibrary_DatabaseDataSet
         '
         'LibraryMembersTableAdapter
         '
@@ -210,7 +217,8 @@ Partial Class Form1
         '
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.CheckOutTableAdapter = Nothing
-        Me.TableAdapterManager.LibraryEmployeesTableAdapter = Nothing
+        'Me.TableAdapterManager.LibraryEmployeesTableAdapter = Nothing
+        Me.TableAdapterManager.LibraryEmployeesTableAdapter = Me.LibraryEmployeesTableAdapter
         Me.TableAdapterManager.LibraryMembersTableAdapter = Me.LibraryMembersTableAdapter
         Me.TableAdapterManager.LibraryResourcesTableAdapter = Nothing
         Me.TableAdapterManager.UpdateOrder = loginformagain.ELibrary_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
@@ -244,7 +252,9 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ELibrary_DatabaseDataSet As loginformagain.ELibrary_DatabaseDataSet
+    Friend WithEvents LibraryEmployeesBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents LibraryMembersBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents LibraryEmployeesTableAdapter As loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryEmployeesTableAdapter
     Friend WithEvents LibraryMembersTableAdapter As loginformagain.ELibrary_DatabaseDataSetTableAdapters.LibraryMembersTableAdapter
     Friend WithEvents TableAdapterManager As loginformagain.ELibrary_DatabaseDataSetTableAdapters.TableAdapterManager
     Friend WithEvents Button1 As System.Windows.Forms.Button

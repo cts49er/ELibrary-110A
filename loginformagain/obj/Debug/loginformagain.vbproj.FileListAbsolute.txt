@@ -49,7 +49,6 @@ C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginform
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.exe
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.xml
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.pdb
-C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbprojResolveAssemblyReference.cache
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\ELibrary Database.accdb
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.exe
 C:\Users\Christian\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.pdb

@@ -1,17 +1,18 @@
-﻿Public Class Form1
+﻿
+Public Class Form1
 
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
         MessageBox.Show("Coming soon")
     End Sub
 
     Private Sub txtEmail_TextChanged(sender As Object, e As EventArgs) Handles txtEmail.TextChanged
-    
 
-       
-        
+
+
+
     End Sub
 
- 
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'ELibrary_DatabaseDataSet.LibraryMembers' table. You can move, or remove it, as needed.
         Me.LibraryMembersTableAdapter.Fill(Me.ELibrary_DatabaseDataSet.LibraryMembers)
@@ -20,7 +21,7 @@
         txtPassword.Text = "Password"
     End Sub
 
-   
+
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
 
@@ -36,45 +37,51 @@
 
             'how many records contain the email provided by the user?
             NumberOfRows = LibraryMembersTableAdapter.FillByEmail(ELibrary_DatabaseDataSet.LibraryMembers, txtEmail.Text)
+            If NumberOfRows = 1 Then
+                RowData = LibraryMembersTableAdapter.GetDataByEmail(txtEmail.Text)(0)
+                Password = RowData.Password
+            Else
+                NumberOfRows = LibraryEmployeesTableAdapter.FillByEmail(ELibrary_DatabaseDataSet.LibraryEmployees, txtEmail.Text)
+                If NumberOfRows = 1 Then
+                    RowData = LibraryEmployeesTableAdapter.GetDataByEmail(txtEmail.Text)(0)
+                    Password = RowData.Password
+                End If
+            End If
             'if there is one existing record with the email then get the user's record with the getdataby method
             'and put the record (really point to the record) in the object "RowData" then get the email from the object. 
             'The dataset's index names will match the names of the columns in the table.  
             'Thus RowData.Password points to the user's password
-            If NumberOfRows = 1 Then
 
-                RowData = LibraryMembersTableAdapter.GetDataByEmail(txtEmail.Text)(0)
-                Password = RowData.Password
+
+            If NumberOfRows = 1 Then
                 'if everything matches up, the user is shown a success message and the next screen is opened
                 'the search form is opened, and form1 is hidden
                 'the fields are cleared out
 
                 'if everything does not match up, they are shown a failure message and the fields are cleared
-                    If Password = txtPassword.Text Then
-                        Search.Show()
-                        Me.Hide()
-                        txtEmail.Clear()
-                        txtPassword.Clear()
+                If Password = txtPassword.Text Then
+                    Search.Show()
+                    Me.Hide()
+                    txtEmail.Clear()
+                    txtPassword.Clear()
 
-                    Else
-                        MessageBox.Show("Login unsuccessful")
-                        txtPassword.Clear()
-                    End If
                 Else
+
+                    MessageBox.Show("Login unsuccessful")
+                    txtPassword.Clear()
+                End If
+            Else
+
                 MessageBox.Show("No user has registered with this email, please try a different email or register as a new user")
                 txtEmail.Clear()
                 txtPassword.Clear()
-                End If
             End If
-
-
-
-
-
+        End If
 
     End Sub
 
     Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged
-        
+
 
     End Sub
 
