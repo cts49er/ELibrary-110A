@@ -96,16 +96,6 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        'hides form 1 and opens the employee login form
-        Me.Hide()
-        EmployeeLogin.Show()
-        'clears out the fields
-        txtEmail.Clear()
-        txtPassword.Clear()
-
-    End Sub
-
     Private Sub btnLogin_KeyPress(sender As Object, e As KeyPressEventArgs) Handles btnLogin.KeyPress
 
     End Sub

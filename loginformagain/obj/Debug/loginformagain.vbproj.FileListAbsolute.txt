@@ -54,7 +54,6 @@ C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformaga
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.pdb
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\bin\Debug\loginformagain.xml
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.vbprojResolveAssemblyReference.cache
-C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.EmployeeLogin.resources
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Form1.resources
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Resources.resources
 C:\Users\Zetroc\Source\Repos\ELibrary-110A\loginformagain\obj\Debug\loginformagain.Search.resources
